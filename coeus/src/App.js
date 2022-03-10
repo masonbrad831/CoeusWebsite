@@ -11,6 +11,7 @@ import Signup from './pages/sign-up';
 import Signin from './pages/sign-in';
 import NotFound from './pages/NotFound';
 
+
 function App() {
   return (
     <Router>
@@ -25,7 +26,6 @@ function App() {
         <Route exact path="/sign-in" element={<Signin />} />
         <Route exact path="*" element={<NotFound/>}  />
       </Routes>
-
     </Router>
   );
 }

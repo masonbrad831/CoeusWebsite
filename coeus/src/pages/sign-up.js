@@ -10,7 +10,7 @@ const signup = () => {
                 alignItems: 'center',
                 height: '90vh'
             }}>
-            <ParticlesContainer/>
+            {/* <ParticlesContainer/> */}
             <h1>signup</h1>
         </div>
     );
